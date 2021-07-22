@@ -23,33 +23,421 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C0BF60CA-13AA-48E8-B9CA-F455962C2DA5"
+            uuid = "0D23DBF9-2AC7-45D9-8868-16E445B9B728"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FeatureFlag/ViewModel.swift"
+            filePath = "FeatureFlag/FirebaseRemoteConfig/Service/FBRemoteConfig.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "updateViews()"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "thetaDirectEnabled()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "540FCF9A-3E30-4C5C-95A3-824340811BAA"
+            uuid = "0CF9662B-83FA-4BB2-AE32-CBF25B08202A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FeatureFlag/ViewModel.swift"
+            filePath = "FeatureFlag/Extensions/UserDefaults.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "updateViews()"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "wrappedValue"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BD96766-5F23-4F8D-95BB-D661F650105A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/Extensions/UserDefaults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "wrappedValue"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E77B96F9-811F-43C2-8188-6D0E8C535D4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchData()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E77B96F9-811F-43C2-8188-6D0E8C535D4D - 8fa0d0cc2f4dd08f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.fetchData() -&gt; ()"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "E77B96F9-811F-43C2-8188-6D0E8C535D4D - fe06d8b0237b102a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 () -&gt; () in implicit closure #1 (FeatureFlag.ViewModel) -&gt; () -&gt; () in FeatureFlag.ViewModel.fetchData() -&gt; ()"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "featureOneEnabled"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 90602584705ae1c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FeatureFlag.ViewModel.featureOneEnabled : Swift.Bool"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 56d9871e33230e29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.featureOneEnabled.getter : Swift.Bool"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - d407694b6bf0d61d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.featureOneEnabled.setter : Swift.Bool"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 256bdffd8883f542"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.featureOneEnabled.modify : Swift.Bool"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 13606206a8b1141d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.featureOneEnabled.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 498e3a1c9123b10a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.$featureOneEnabled.getter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - 5257ac47071e57e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.$featureOneEnabled.setter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - c6e5afa83e9b6e78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.$featureOneEnabled.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "E2B865E1-5394-400D-95B7-9FBDECF01503 - bdbbcf5bbd60b272"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.ViewModel.$featureOneEnabled.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DE1F10B-8B56-492B-AD72-E65CF2A7DA1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/Service/FeatureFlag.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "getColor()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D8F1885-E6CE-4196-8CA1-6944B45FC8A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "updateParam()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/View/BaseLabel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "BaseLabel"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 8a89eac0899529d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FeatureFlag.BaseLabel.color : SwiftUI.Color"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 6fecbc283399d5a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.color.getter : SwiftUI.Color"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 7c2de82ee5e6d19b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.color.setter : SwiftUI.Color"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 3e715e4fd8c51212"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.color.modify : SwiftUI.Color"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 5b624c369188c89b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.color.modify : SwiftUI.Color with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - e6fae62369f7ae93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.$color.getter : SwiftUI.Binding&lt;SwiftUI.Color&gt;"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "ACFA087F-6327-40F8-BBB2-BC883A005378 - 6b6370b1bc50824f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureFlag.BaseLabel.init() -&gt; FeatureFlag.BaseLabel"
+                  moduleName = "FeatureFlag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XPan/Documents/FeatureFlag/FeatureFlag/FeatureFlag/View/BaseLabel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "116B7AEF-C600-45F8-9519-8C2CA69E86E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureFlag/View/BaseLabel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -13,7 +13,6 @@ struct FeatureFlagApp: App {
     
     init() {
         FirebaseApp.configure()
-        FBRemoteConfig2.fetch()
     }
     
     var body: some Scene {
